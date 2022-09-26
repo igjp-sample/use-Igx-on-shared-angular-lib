@@ -1,27 +1,13 @@
-# MyWorkspace
+# Angular アプリ開発 - Ignite UI for Angular を使ったコンポーネントを共通ライブラリ化し、複数アプリから使用する開発環境を構築する
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+## 概要
 
-## Development server
+このリポジトリは、インフラジスティックス・ジャパン株式会社 Blog の下記記事で紹介しているサンプルアプリケーションのソースコード一式です。
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[📰 "Angular アプリ開発 - Ignite UI for Angular を使ったコンポーネントを共通ライブラリ化し、複数アプリから使用する開発環境を構築する"](https://blogs.jp.infragistics.com/entry/use-igniteui-for-angular-in-shared-library)
 
-## Code scaffolding
+Ignite UI for Angular を使用した Angular コンポーネントを、Angular ライブラリとして実装し、他の Angular アプリケーションからの共通機能として使用する例を示しています。
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![](.assets/fig.001.png)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+このリポジトリのコミット履歴には、上記のとおりの Angular アプリケーションを開発する作業手順が記録されています。
