@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { IgxGridModule } from '@infragistics/igniteui-angular';
 import { LibXComponent } from './lib-x.component';
 
 
@@ -8,6 +9,7 @@ import { LibXComponent } from './lib-x.component';
     LibXComponent
   ],
   imports: [
+    IgxGridModule
   ],
   exports: [
     LibXComponent
