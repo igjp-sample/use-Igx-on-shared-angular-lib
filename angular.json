@@ -28,9 +28,12 @@
               "projects/app-b/src/assets"
             ],
             "styles": [
-              "projects/app-b/src/styles.scss"
+              "projects/app-b/src/styles.scss",
+              "node_modules/igniteui-angular/styles/igniteui-angular.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/hammerjs/hammer.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -96,9 +99,12 @@
               "projects/app-b/src/assets"
             ],
             "styles": [
-              "projects/app-b/src/styles.scss"
+              "projects/app-b/src/styles.scss",
+              "node_modules/igniteui-angular/styles/igniteui-angular.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/hammerjs/hammer.min.js"
+            ]
           }
         }
       }
@@ -130,7 +136,9 @@
             "styles": [
               "projects/app-a/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/hammerjs/hammer.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -198,7 +206,9 @@
             "styles": [
               "projects/app-a/src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/hammerjs/hammer.min.js"
+            ]
           }
         }
       }
